@@ -1,6 +1,7 @@
 data<-read.csv("Iris.csv")
 data
-library(fpc)
+#You can do partitioning around medoids to estimate the number of clusters using the pamk function in the fpc package.
+
 library(cluster)
 library(factoextra)
 n = 150
